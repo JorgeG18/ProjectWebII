@@ -17,3 +17,7 @@ Route::view('/', 'pagina_principal') -> name ('pagina_principal');
 Route::view('/acercade', 'acercade') -> name ('acercade');
 Route::view('/contacto', 'contacto') -> name ('contacto');
 Route::view('/login', 'login') -> name ('login');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
