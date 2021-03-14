@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pagina_principal') -> name ('pagina_principal');
-
-
+Route::view('/acercade', 'acercade') -> name ('acercade');
+Route::view('/contacto', 'contacto') -> name ('contacto');
+Route::view('/login', 'login') -> name ('login');

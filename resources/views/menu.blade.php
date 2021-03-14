@@ -8,7 +8,9 @@
     <!--Favicon-->
     <!--Estilos-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!--CSS-->
+    <link rel="stylesheet" href="../public/css/pagina_principal.css">
+    
 </head>
 <body>
   
@@ -16,9 +18,9 @@
     <nav>
         <ul>
             <li><a href="home">Home</a></li>
-            <li><a href="acerca">Acerca de</a></li>
-            <li><a href="portafolio">Contacto</a></li>
-            <li><a href="contacto">Login</a></li>
+            <li><a href="acercade">Acerca de</a></li>
+            <li><a href="contacto">Contacto</a></li>
+            <li><a href="login">Login</a></li>
         </ul>
     </nav>
 
