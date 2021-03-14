@@ -105,7 +105,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
             </div>
             <div class="grids2 desing_grids"  >
                 <div class="col-image">
@@ -114,7 +114,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
             <div class="grids3 desing_grids"  >
@@ -124,7 +124,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
 
@@ -135,7 +135,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
 
@@ -146,7 +146,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
 
@@ -157,7 +157,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
             <div class="grids7 desing_grids"  >
@@ -167,7 +167,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
             <div class="grids8 desing_grids"  >
@@ -177,7 +177,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
 
             </div>
         </div>

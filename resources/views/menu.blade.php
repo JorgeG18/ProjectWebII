@@ -11,22 +11,60 @@
     <!--CSS-->
     <link rel="stylesheet" href="../public/css/pagina_principal.css">
     <link rel="stylesheet" href="../public/css/acerca.css">
+    <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="../public/css/footer.css">
 </head>
 <body>
   
     <!--NAV-->
-    <nav>
-        <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="acercade">Acerca de</a></li>
-            <li><a href="contacto">Contacto</a></li>
-            <li><a href="login">Login</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="pagina_principal" style="color: white; font-weight: 600; margin-left: 50px">TECHNOSHOP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex flex-row-reverse " id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link"  style="color: white; font-size: 20px" href="pagina_principal">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: white; font-size: 20px" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+              </a>
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-white" >Computadoras</a>
+                <a class="dropdown-item text-white" href="#">Celulares</a>
+                <a class="dropdown-item text-white" href="#">Gaming</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto" style="color: white; font-size: 20px" >Contacto <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="acercade" style="color: white; font-size: 20px">Acerca <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="login" style="color: white; font-size: 20px">Login <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+
+        </div>
+      </nav>
 
     @yield('content')
 
      <!--Footer-->
+
+     <div class="footer">
+        <div class="col-xs-footer">
+            <p>Derechos reservados Techno Shop&COPY; 2020</p>
+        </div>
+        <div class="col-xs-icon">
+
+        </div>
+
+    </div>
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
