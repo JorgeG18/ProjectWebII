@@ -1,0 +1,27 @@
+*::selection {
+    background-color: #ffffff;
+    color: #0b34b9;
+}
+#h{
+    margin-bottom: 100px;
+}
+
+#j{
+    align-content: center;
+    text-align: center;
+}
+#j img:hover{
+    transform: scale(1.10);
+    transition: 1s; 
+}
+#k img{
+    object-fit: cover;  
+    box-shadow: 2px 1px 7px black;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+#centro {
+    margin-top: 80px;
+}
