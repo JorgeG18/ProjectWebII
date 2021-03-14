@@ -13,6 +13,7 @@
                 <h2>Misión</h2>
                 <p>Ser una empresa innovadora y con gran sentido de responsabilidad social que busca el máximo beneficio de nuestros clientes a través de la calidad de nuestros productos y nuestros servicios y ofrecer productos y servicios que estén a la vanguardia de las últimas tendencias que el mercado demanda.</p>
 
+                
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" id="j">
                 <img class="img-circle" src="https://image.freepik.com/vector-gratis/hombre-negocios-que-busca-carta-dinero-crecimiento-concepto-vision-ilustracion-vectorial-dibujos-animados_1212-1050.jpg" alt="Generic placeholder image" width="150" height="150">
