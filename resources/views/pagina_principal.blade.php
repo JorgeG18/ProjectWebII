@@ -41,23 +41,23 @@
   </div>
 
   <!--GRIDS DE LOS PRODUCTOS--->
-  <div class="contenedor-category">
+    <div class="contenedor-category">
       <!--GRIDS--->
-  <div class="container" style="display: flex; flex-wrap: wrap; justify-content: center;">
-        <div class="title-produc">
-            <div class="col-xs-divisor"></div>
-                <h4 class="">Categoría<h4>
-            <div class="col-xs-divisor-2"></div>
+            <div class="title-produc">
+                    <div class="row-xs-divisor"></div>
+                        <h4 class="">Categoría<h4>
+                    <div class="col-xs-divisor-2"></div>
 
-        </div>
-       
-                <div class="grids1 design_grids_category">
+            </div>
+        <div class="container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+                
+                <div class="grids1 design_grids-category">
                     <div class="col-text-category">
                         <h4 class="hover">Ver mas</h4>
                         <h4>Computadoras</h4>
                     </div>
-                    <div class="col-image-categorys">
-                        <img src="../public/images/2.jpg" alt="">
+                    <div class="col-image-category">
+                        <img src="https://portajorgepaz.000webhostapp.com/img/monitores/acer6.png" alt=""/>
                     </div>
                 </div>
 
@@ -67,24 +67,120 @@
                         <h4>Celular</h4>
                     </div>
                     <div class="col-image-category">
-                        <img src="https://portajorgepaz.000webhostapp.com/img/monitores/acer6.png" />
+                        <img src="https://portajorgepaz.000webhostapp.com/img/monitores/acer6.png" alt=""/>
                     </div>
                 </div>
 
-                <div class="grid1 design_grids-category"> 
+                <div class="grids1 design_grids-category">
                     <div class="col-text-category">
-                        <h4  class="hover">Ver mas</h4>
+                        <h4 class="hover">Ver mas</h4>
                         <h4>Gaming</h4>
                     </div>
                     <div class="col-image-category">
-                        <img src="https://portajorgepaz.000webhostapp.com/img/headsets/hyper8.png" />
+                        <img src="https://portajorgepaz.000webhostapp.com/img/headsets/hyper8.png" alt=""/>                   
                     </div>
-
-
                 </div>
+        </div>
+    </div>
+
+    <!--GRIDS PRODUCTOS EN OFERTA-->
+
+    <div class="contenedor">
+
+
+         <div class="title-produc">
+                    <div class="row-xs-divisor"></div>
+                        <h4 class="">Productos en oferta<h4>
+                    <div class="col-xs-divisor-2"></div>
+
             </div>
-            <!----->
-  </div>
-</div>
+
+        <!-- Grids-->
+        <div class="grids" style="display: flex; flex-wrap: wrap; justify-content: center">
+            
+            <div class="grids1 desing_grids">
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Monitores/mon6.png" />
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+            </div>
+            <div class="grids2 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/mic4.png"/>
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+            <div class="grids3 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/cam3.png" />
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+
+            <div class="grids4 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Laptops/lapg3.png" />
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+
+            <div class="grids5 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/moug2.png"/>
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+
+            <div class="grids6 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/tecg3.png" />
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+            <div class="grids7 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/headg4.png" />
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+            <div class="grids8 desing_grids"  >
+                <div class="col-image">
+                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/parl2.png" />
+                </div>
+                <div class="col-text">
+                    <h4>Hola</h4>
+                </div>
+                <button  class="btn btn-primary" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+
+            </div>
+        </div>
+    </div>
   
 @endsection
