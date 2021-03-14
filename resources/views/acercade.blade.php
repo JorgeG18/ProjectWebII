@@ -20,6 +20,7 @@
                 <h2>Visión</h2>
                 <p>Ser un aliado estratégico para nuestros clientes basados en soluciones y servicios innovadores sobre la base de nuestra responsabilidad, calidad, productividad y compromiso.</p>
 
+                
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4" id="j">
                 <img class="img-circle" src="https://10empresa.com/wp-content/uploads/2019/05/valores-de-una-empresa-1.gif" alt="Generic placeholder image" width="150" height="150">
