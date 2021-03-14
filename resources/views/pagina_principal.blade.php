@@ -28,7 +28,7 @@
             <img class="d-block w-100" src="../public/images/3.jpg" alt="Third slide">
         </div>
     </div>
-    
+      
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -83,6 +83,7 @@
 
                 </div>
             </div>
+            <!----->
   </div>
 </div>
   
