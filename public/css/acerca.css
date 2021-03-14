@@ -17,5 +17,11 @@
 #k img{
     object-fit: cover;  
     box-shadow: 2px 1px 7px black;
-    border-radius: 11px;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+
+#centro {
+    margin-top: 80px;
 }
