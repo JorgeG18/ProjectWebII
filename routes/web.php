@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controlers\UserAuth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,3 +17,9 @@ Route::view('/', 'pagina_principal') -> name ('pagina_principal');
 Route::view('/acercade', 'acercade') -> name ('acercade');
 Route::view('/contacto', 'contacto') -> name ('contacto');
 Route::view('/login', 'login') -> name ('login');
+
+
+// Para el login 
+// Route::post("user",[UserAuth::class, 'userLogin']);
+// Route::view("login", 'login');
+// Route::view("pagina_principal", 'pagina_principal');
