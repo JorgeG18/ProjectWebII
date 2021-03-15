@@ -135,7 +135,7 @@
                 <div class="col-text">
                     <h4>Hola</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login.html'">Agregar al carrito</button>
 
             </div>
 
