@@ -6,21 +6,34 @@
 
 
 @section('content')
-<section class="container-fluid">
-    <section class="row justify-content-center">
-        <section class="col-12 col-sm-4 col-md-3">
-            <form class="form-container">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">                    
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-              
-                    <button type="submit" class="btn btn-primary btn-block">Login</button>
-                </form>
-        </section>
-    </section>
-</section>
+<div class="card " style="justify-content: center; align-Items: center; height: 548px; margin-top:100px ">
+    <article class="card-body" style="width:600px; ">
+        <h4 class="card-title text-center mb-4 mt-1">Sign in</h4>
+        <hr>
+        <form>
+        <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+             </div>
+            <input name="email" class="form-control" placeholder="Email or login" type="email" value={{old('name')}}>
+            {!! $errors->first('name', '<small>:message</small><br>') !!}
+        </div> <!-- input-group.// -->
+        </div> <!-- form-group// -->
+        <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+             </div>
+            <input name="password" class="form-control" placeholder="******" type="password" value={{old('name')}}>
+            {!! $errors->first('name', '<small>:message</small><br>') !!}
+        </div> <!-- input-group.// -->
+        </div> <!-- form-group// -->
+        <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+        </div> <!-- form-group// -->
+        <p class="text-center"><a href="#" class="btn">Forgot password?</a></p>
+        </form>
+    </article>
+    </div> <!-- card.// -->
 @endsection

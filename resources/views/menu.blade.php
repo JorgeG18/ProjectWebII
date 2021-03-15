@@ -18,7 +18,7 @@
   
     <!--NAV-->
     <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="pagina_principal" style="color: white; font-weight: 600; margin-left: 50px">TECHNOSHOP</a>
+        <a class="navbar-brand" href="../public/" style="color: white; font-weight: 600; margin-left: 50px">TECHNOSHOP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse d-flex flex-row-reverse " id="navbarSupportedContent">
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link"  style="color: white; font-size: 20px" href="pagina_principal">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link"  style="color: white; font-size: 20px" href="../public/">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: white; font-size: 20px" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,7 +56,7 @@
 
      <!--Footer-->
 
-     <div class="footer">
+     <div class="footer" style="margin-top: 63px">
         <div class="col-xs-footer">
             <p>Derechos reservados Techno Shop&COPY; 2020</p>
         </div>
