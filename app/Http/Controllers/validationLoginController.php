@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 class validationLoginController extends Controller
 {
-    public function Login(){
+    public function store(){
         resquest()->validate([
-            'email' => 'requirede|email',
-            'passwords' => 'required',
+            'email' => 'required|email',
+            'password' => 'required',
         ]);
 
-        return 'Datos validados'
+        return 'Datos validados';
     }
 }

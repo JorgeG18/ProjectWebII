@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../public/css/pagina_principal.css">
     <link rel="stylesheet" href="../public/css/acerca.css">
     <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="../public/css/contacto.css">
     <link rel="stylesheet" href="../public/css/footer.css">
 </head>
 <body>

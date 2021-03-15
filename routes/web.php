@@ -18,4 +18,4 @@ Route::view('/acercade', 'acercade') -> name ('acercade');
 Route::view('/contacto', 'contacto') -> name ('contacto');
 Route::view('/login', 'login') -> name ('login');
 
-Route::post('login', ('validationLoginController@Login'))->name('login');
+Route::post('contacto', ('validationContactController@contact'))->name('contacto'); 
