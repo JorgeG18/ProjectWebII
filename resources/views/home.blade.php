@@ -17,7 +17,7 @@
 <body>
   
     <!--NAV-->
-    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="../public/" style="color: white; font-weight: 600; margin-left: 50px">TECHNOSHOP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,9 +25,6 @@
 
         <div class="collapse navbar-collapse d-flex flex-row-reverse " id="navbarSupportedContent">
           <ul class="navbar-nav ">
-            <li class="nav-item">
-              <a class="nav-link"  style="color: white; font-size: 20px" href="../public/">Inicio <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: white; font-size: 20px" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Productos
@@ -42,9 +39,6 @@
                 <a class="nav-link" href="contacto" style="color: white; font-size: 20px" >Contacto <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="acercade" style="color: white; font-size: 20px">Acerca <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
                 <div id="app">
                     <nav class="navbar navbar-expand-md shadow-sm">
                                     <!-- Authentication Links -->
@@ -53,6 +47,7 @@
                                             <li class="nav-item">
                                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                             </li>
+                                            
                                         @endif
                                     @else
                                         <li class="nav-item dropdown">
@@ -89,9 +84,6 @@
      <div class="footer" style="margin-top: 63px">
         <div class="col-xs-footer">
             <p>Derechos reservados Techno Shop&COPY; 2020</p>
-        </div>
-        <div class="col-xs-icon">
-
         </div>
 
     </div>
