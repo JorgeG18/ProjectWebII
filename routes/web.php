@@ -19,3 +19,6 @@ Route::view('/contacto', 'contacto') -> name ('contacto');
 Route::view('/login', 'login') -> name ('login');
 
 Route::post('contacto', ('validationContactController@contact'))->name('contacto'); 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
