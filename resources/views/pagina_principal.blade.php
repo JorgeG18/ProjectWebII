@@ -100,84 +100,84 @@
             
             <div class="grids1 desing_grids">
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Monitores/mon6.png" />
+                    <img src="https://portajorgepaz.000webhostapp.com/img/teclado/razer1.png" />
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Razer Huntsaman Mini</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
             </div>
             <div class="grids2 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/mic4.png"/>
+                    <img src="https://portajorgepaz.000webhostapp.com/img/teclado/razer7.png"/>
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Razer BlackWidow TE</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
 
             </div>
             <div class="grids3 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/cam3.png" />
+                    <img src="https://portajorgepaz.000webhostapp.com/img/mouse/logitech1.png" />
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Mouse Logitech G502</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
 
             </div>
 
             <div class="grids4 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Laptops/lapg3.png" />
+                    <img src="https://cutt.ly/cvss4i5" />
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Motorola Edge</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
 
             </div>
 
             <div class="grids5 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/moug2.png"/>
+                    <img src="https://s1.1zoom.me/b5050/686/362492-commander06_1920x1080.jpg"/>
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Razer Blade</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
 
             </div>
 
             <div class="grids6 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/tecg3.png" />
+                    <img src="https://s1.1zoom.me/b5050/956/406733-commander06_1920x1080.jpg" />
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Nokia Laptop</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
 
             </div>
             <div class="grids7 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/headg4.png" />
+                    <img src="https://cutt.ly/MvsfMjx" />
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Iphone 12</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href = 'login'">Agregar al carrito</button>
 
             </div>
             <div class="grids8 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://www.itservtech.xyz/FP/Proyecto/Repos/Productos/Multimedia/parl2.png" />
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71w9q-RLj6L._AC_SY355_.jpg" />
                 </div>
                 <div class="col-text">
-                    <h4>Hola</h4>
+                    <h4>Machenike</h4>
                 </div>
-                <button  class="btn btn-primarys" role="link" onclick="window.location.href = './login.html'">Agregar al carrito</button>
+                <button  class="btn btn-primarys" role="link" onclick="window.location.href ='login' ">Agregar al carrito</button>
 
             </div>
         </div>

@@ -1,6 +1,9 @@
-@extends('layouts.app')
+@extends('home')
 
 @section('content')
+
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -59,9 +62,24 @@
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
+                                        {{ __('No recuerdas tu contraseña?') }}
                                     </a>
                                 @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0" style="margin-top: 25px">
+                            <div class="col-md-8 offset-md-4">
+                                <div class="form-SignuP">
+                                    
+                                    @if (Route::has('register'))
+                                        <a class="btn btn-link" style href="{{ route('register') }}">{{ __('No tienes cuenta? Crear Cuenta') }}
+                                        </a>
+                                    @endif
+
+                    
+
+                                </div>
                             </div>
                         </div>
                     </form>
