@@ -10,24 +10,24 @@ use Illuminate\Queue\SerializesModels;
 class MessageRecived extends Mailable
 {
     use Queueable, SerializesModels;
-
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        //
-    }
-
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
-    public function build()
-    {
-        return $this->view('email.message-received');
-    }
+    public $msg;
+        /**
+         * Create a new message instance.
+         *
+         * @return void
+         */
+        public function __construct($msg)
+        {
+            $this ->msg=$msg;
+        }
+    
+        /**
+         * Build the message.
+         *
+         * @return $this
+         */
+        public function build()
+        {
+            return $this->view('email.message-received');
+        }
 }
