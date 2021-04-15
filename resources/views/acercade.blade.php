@@ -1,4 +1,4 @@
-@extends('menu')
+@extends('home')
 
 @section('title')
     acercade
