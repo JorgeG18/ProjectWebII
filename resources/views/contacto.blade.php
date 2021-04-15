@@ -8,19 +8,19 @@
 @section('content')
 <h1>Contato</h1>
     
-    
 <form method="POST" action={{ route('contacto')}}>
-	
 	@csrf
-	<input name="nombre" placeholder="Nombre" value="" ><br>
-	{{!!$errors->first('nombre','<small>:message</small><br>')!!}} 
-	<input name="email" placeholder="Email" value=""><br>
-	{{!!$errors->first('email','<small>:message</small><br>')!!}} 
-	<input name="subject" placeholder="Asunto" value=""><br>
-	{{!!$errors->first('subject','<small>:message</small><br>')!!}} 
-	<textarea name="contenido"></textarea>
-	{{!!$errors->first('contenido','<small>:message</small><br>')!!}} 
-	<button>Enviar</button>
+	<input type="text" name="name" placeholder="Nombre"><br>
+	{!! $errors->first('name', '<small>:message</small>') !!}<br>
 
+	<input type="email" name="email" placeholder="Correo" ><br>
+	{!! $errors->first('email', '<small>:message</small>') !!}<br>
+
+	<input type="text" name="subject" placeholder="Asunto"><br>
+	{!! $errors->first('subject', '<small>:message</small>') !!}<br>
+
+	<textarea name="content" placeholder="Mensaje"></textarea><br>
+	{!! $errors->first('content', '<small>:message</small>') !!}<br>
+	<button>Enviar</button>
 </form>
 @endsection

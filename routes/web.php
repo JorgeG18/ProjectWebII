@@ -9,5 +9,5 @@ Route::view('/login', 'login') -> name ('login');
 
 Auth::routes();
 
-Route::view('contacto','contacto')->name('contacto');
-Route::post('contacto',('ContactoController@store'))->name('contacto');
+Route::view('/contacto', 'contacto')->name('contacto');
+Route::post('contacto', '\App\Http\Controllers\MessagesController@store');
