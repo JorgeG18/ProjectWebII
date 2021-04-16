@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../public/css/login.css">
     <link rel="stylesheet" href="../public/css/contacto.css">
     <link rel="stylesheet" href="../public/css/footer.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
   
@@ -112,16 +114,77 @@
      
   </div>
      <!--Footer-->
+<!--Footer de primer página-->
+<footer>
+    <div class="caja">
+         <div class="container-body">
+             <div class="columna1">
+                
+                 <h1>Sobre nosotros</h1>
+                  <div class="borde">
+                  
+                    </div>
+                 <p>Somos una tienda de perifericos gaming que te ayuda a encontrar lo que necesitas, nuestros perifericos traen una amplia especificaciones de cada una.</p>
 
-     <div class="footer" style="margin-top: 63px">
-        <div class="col-xs-footer">
-            <p>Derechos reservados Techno Shop&COPY; 2020</p>
-        </div>
-        <div class="col-xs-icon">
+                     <div class="redes">
+                         <div class="row">
+                             <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                         </div>
+                         <div class="row">
+                             <a href="#" ><i class="fab fa-twitter"></i></a>
+                             
+                         </div>
+                         <div class="row">
+                             <a href="#"> <i class="fab fa-instagram"></i></a>
+                             
+                         </div>
+                 
+                     </div>
+             </div>
+          
+             <div class="columna3">
 
-        </div>
+                 <h1>Información</h1>
+                  <div class="borde">
+                   
+                  </div>
+                 <div class="row2">
+                     <i class="fas fa-map-marker-alt" style="margin-top: 40px; font-size: 30px;"></i>
+                     <label>La Ceiba, Calle CA-13 - esquina opuesta al punto de buses Santa Marta</label>
+                 </div>
 
-    </div>
+                 <div class="row2">
+                     <i class="fas fa-phone" style="margin-top: 10px; font-size: 20px";></i>
+                     <label>+504 9859-0618</label>
+                 </div>
+
+                 <div class="row2">
+                    <a href="https://www.google.com/intl/es-419/gmail/about/#"><i class="fas fa-envelope"  style="margin-top: 10px; font-size: 20px; color: black;"></i></a> 
+                      <label>technohn@gmail.com</label>
+                 </div>
+
+             </div>  
+                 
+             <div class="columna2">
+                 <h1>Enlaces</h1>
+                 <div class="borde">
+                 </div>
+                 <a href="#"><i class="fas fa-link"></i>Inicio</a>
+                 <a href="#"><i class="fas fa-link"></i>Acerca de</a>
+                 <a href="#"><i class="fas fa-link"></i>Contactanos</a>
+             </div>
+         </div>
+     </div>
+     
+     <div class="footer-bottom">
+            <div class="bottom">
+             <div class="copyright">
+                <p class="h6">Derechos reservados.<a href="#">Techno Shop&COPY; 2021</a></p>
+            </div>
+             </div>
+         </div>    
+ </footer>
+
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
