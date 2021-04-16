@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="../public/css/pagina_principal.css">
     <link rel="stylesheet" href="../public/css/acerca.css">
     <link rel="stylesheet" href="../public/css/contacto.css">
-
+    <link rel="stylesheet" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../../public/css/footer.css">
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
@@ -20,7 +21,7 @@
   
     <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="../public/" style="color: white; font-weight: 600; margin-left: 50px">TECHNOHOP</a>
+        <a class="navbar-brand" href="../home" style="color: white; font-weight: 600; margin-left: 50px">TECHNOHOP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

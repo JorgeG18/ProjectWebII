@@ -1,7 +1,8 @@
 .contact{
-    padding: 4%;
+    padding: 2%;
     height: 400px;
-    margin-bottom: 247px; 
+    margin-bottom: 500px; 
+   
 }
 .col-md-3{
     background: #337AB7;
@@ -45,7 +46,6 @@
 
 .titulo{
     background:linear-gradient(180deg,#343a40,#337AB7);
-    padding: 15px;
     color: #fff;
 
 }
