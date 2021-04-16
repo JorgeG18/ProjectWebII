@@ -117,7 +117,7 @@
                   </div>
                  <div class="row2">
                      <i class="fas fa-map-marker-alt" style="margin-top: 40px; font-size: 30px;"></i>
-                     <label>La Ceiba, Calle CA-13 - esquina opuesta al punto de buses Santa Marta</label>
+                     <label>La Ceiba, Calle CA-13 - Esquina opuesta al punto de buses Santa Marta</label>
                  </div>
 
                  <div class="row2">
@@ -146,7 +146,7 @@
      <div class="footer-bottom">
             <div class="bottom">
              <div class="copyright">
-                <p class="h6">Derechos reservados.<a href="#">Techno Shop&COPY; 2021</a></p>
+                <p class="h6">Derechos reservados <a href="#">Techno Shop&COPY; 2021</a></p>
             </div>
              </div>
          </div>    
