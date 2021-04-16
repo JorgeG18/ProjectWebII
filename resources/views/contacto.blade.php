@@ -8,8 +8,8 @@
 @section('content')
 <form method="POST" action={{route('contacto')}}>
 	@csrf
-	<div class="titulo" style="text-align: center">
-		<br>			
+	<div class="titulo" style="text-align: center; padding-bottom:30px">
+		<br>		 	
 	<h2>Contactanos</h2>
 	<h4>Cualquier consulta sobre nuestros productos puedes preguntar sin dudar!</h4>
 	</div>
