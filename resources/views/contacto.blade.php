@@ -9,7 +9,7 @@
 <form method="POST" action={{route('contacto')}}>
 	@csrf
 	<div class="titulo" style="text-align: center">
-		<br>			
+		<br>		 	
 	<h2>Contactanos</h2>
 	<h4>Cualquier consulta sobre nuestros productos puedes preguntar sin dudar!</h4>
 	</div>
