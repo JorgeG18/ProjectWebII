@@ -1,19 +1,176 @@
-.footer{
-    background-color: black;
-    height: 50px;
-    text-align: center;
-    position: relative;
-    top: 100px;
- 
+*{
+    scroll-behavior: smooth;
 }
-
-.col-xs-footer p{
-    color: white;
-    margin: 0;
-  padding-top: 15px;
+footer{
+    width: 100%;
+    background: #f3f3f3f3;
+    color: black;   
+    margin-top: 60px;
+  }
+  
+  .caja{
+  
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .container-body{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .columna1{
+    max-width: 400px;
+  }
+  
+  .columna1 h1{
+    font-size: 22px;
+  }
+  
+  .columna1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  .columna2{
+    max-width: 400px;
     
-     
-}
-.footer .col-xs-icon{
-    font-size: 20px;
-}
+    
+  }
+  .columna3 .borde {
+    width: 40px;
+    border-radius: 3px;
+    border-bottom: 3px solid blue;
+  }
+  
+  .columna2 .borde {
+    width: 30px;
+    border-radius: 3px;
+    border-bottom: 3px solid blue;
+  }
+  
+  .columna1 .borde {
+    width: 30px;
+    border-radius: 3px;
+    border-bottom: 3px solid blue;
+  }
+  
+  .columna2 a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .columna2 a:hover{
+    color: blue;
+  }
+  .columna2 .fas{
+    margin-right: 5px;
+  }
+  .columna2 h1{
+    font-size: 22px;
+  }
+  
+  .row{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .row a {
+  margin-right: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  }
+  
+  .row a:hover{
+    color: blue;
+    font-size: 26px;
+    transition:all;
+  }
+  
+  .redes{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+  }
+  
+  .columna3{
+    max-width: 400px;
+  }
+  
+  .columna3 h1{
+    font-size: 22px;
+  }
+  
+  .row2{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .row2 img{
+    width: 36px;
+    height: 36px;
+  }
+  
+  .row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+  }
+  
+  .footer-bottom{
+    width: 100%;  
+    background: #101010;
+  }
+  
+  .bottom{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+    padding: 20px;
+  }
+  
+  .copyright{
+    color: #C7C7C7;
+    justify-content: center;
+  }
+  
+  .copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .information a{
+    text-decoration: none;
+    color: #C7C7C7;
+  }
+  
+  
+  @media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .columna1{
+        max-width: 100%;
+    }
+    
+    .columna2,
+    .columna3{
+        margin-top: 40px;
+    }
+  }
+  
