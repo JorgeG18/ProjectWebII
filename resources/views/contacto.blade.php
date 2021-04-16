@@ -11,7 +11,7 @@
 	<div class="titulo" style="text-align: center">
 		<br>			
 	<h2>Contactanos</h2>
-	<h4>Cualquier consulta sobre nuestros productos puedes preguntar</h4>
+	<h4>Cualquier consulta sobre nuestros productos puedes preguntar sin dudar!</h4>
 	</div>
 	<div class="container contact">
 	<div class="row">
