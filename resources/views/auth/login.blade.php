@@ -7,7 +7,6 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header"  style="font-size: 20px; text-align:center;background-color:#0078ff;color:rgb(255, 255, 255);font-weight: 600;">{{ __('Inicia Sesión') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
@@ -53,25 +52,25 @@
                         </div>
 
                         <div class="form-group mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Iniciar Sesión') }}
                                 </button>
 
                                 @if (Route::has('password.request'))
-                                    <a  class="btn btn-link" style="style=font-size: 15px; margin-right:0" href="{{ route('password.request') }}">
+                                    <a class="btn btn-link" style="font-size: 15px; margin-right:0"  href="{{ route('password.request') }}">
                                         {{ __('No recuerdas tu contraseña?') }}
                                     </a>
                                 @endif
                             </div>
                         </div>
 
-                        <div class="form-group mb-0" style="margin-top: 25px">
-                            <div class="col-md-6 offset-md-4">
+                        <div class="form-group mb-0">
+                            <div class="col-md-8 offset-md-4">
                                 <div class="form-SignuP">
                                     
                                     @if (Route::has('register'))
-                                        <a class="btn btn-link" style="style=font-size: 15px; margin-right:0" href="{{ route('register') }}">{{ __('No tienes cuenta? Crear Cuenta') }}
+                                        <a class="btn btn-link" style="font-size: 15px; margin-right:0" href="{{ route('register') }}">{{ __('No tienes cuenta? Crear Cuenta') }}
                                         </a>
                                     @endif
 
