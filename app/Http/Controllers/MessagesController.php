@@ -51,7 +51,7 @@ class MessagesController extends Controller
             ]
             );
             Mail::to('jorge1giron18@gmail.com')->queue(new MessageRecived($msg));
-            return'Gracias por contactarnos';
+            return Redirect::to('perfil/')->with('alertas', 'ok');
       
     }
        /**

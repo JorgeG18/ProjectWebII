@@ -130,7 +130,7 @@
 
             <div class="grids4 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://cutt.ly/cvss4i5" />
+                    <img src="https://cdn11.bigcommerce.com/s-hvhcbznkl4/images/stencil/2000x2000/products/7580/47411/api9ulubv__43596.1592328531.jpg?c=2" />
                 </div>
                 <div class="col-text">
                     <h4>Motorola Edge</h4>
@@ -141,7 +141,7 @@
 
             <div class="grids5 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://s1.1zoom.me/b5050/686/362492-commander06_1920x1080.jpg"/>
+                    <img src="https://media.revistagq.com/photos/5eba5ee15663621a3c7fc8f3/16:9/w_1920,c_limit/iphone-12-pro.jpg"/>
                 </div>
                 <div class="col-text">
                     <h4>Razer Blade</h4>
@@ -152,7 +152,7 @@
 
             <div class="grids6 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://s1.1zoom.me/b5050/956/406733-commander06_1920x1080.jpg" />
+                    <img src="https://i.pinimg.com/originals/9c/be/db/9cbedb919772c0519b8b63d2ddef27b7.jpg" />
                 </div>
                 <div class="col-text">
                     <h4>Nokia Laptop</h4>
@@ -162,7 +162,7 @@
             </div>
             <div class="grids7 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://cutt.ly/MvsfMjx" />
+                    <img src="https://www.itsitio.com/wp-content/uploads/2019/05/2019-05-15-image-3.jpg" />
                 </div>
                 <div class="col-text">
                     <h4>Iphone 12</h4>
@@ -172,7 +172,7 @@
             </div>
             <div class="grids8 desing_grids"  >
                 <div class="col-image">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/71w9q-RLj6L._AC_SY355_.jpg" />
+                    <img src="https://www.newegg.com/insider/wp-content/uploads/2018/12/Building-beginner-PC-header.jpg" />
                 </div>
                 <div class="col-text">
                     <h4>Machenike</h4>
