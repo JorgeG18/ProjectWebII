@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../public/css/pagina_principal.css">
     <link rel="stylesheet" href="../public/css/acerca.css">
     <link rel="stylesheet" href="../public/css/contacto.css">
-
+    <link rel="stylesheet" href="../public/css/footer.css">
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
