@@ -29,10 +29,10 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: white; font-size: 20px" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Productos
               </a>
-              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item text-white" >Computadoras</a>
-                <a class="dropdown-item text-white" href="#">Celulares</a>
-                <a class="dropdown-item text-white" href="#">Gaming</a>
+              <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" >Computadoras</a>
+                <a class="dropdown-item" href="#">Celulares</a>
+                <a class="dropdown-item" href="#">Gaming</a>
               </div>
             </li>
             <li class="nav-item">
@@ -40,12 +40,12 @@
             </li>
             <li class="nav-item">
                 <div id="app">
-                    <nav class="navbar navbar-expand-md shadow-sm">
+                    <nav class="nav-link "  style=" font-size:20px; padding:0;>
                                     <!-- Authentication Links -->
                                     @guest
                                         @if (Route::has('login'))
                                             <li class="nav-item">
-                                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                                <a class="nav-link"  style="color:white;  "  href="{{ route('login') }}">{{ __('Login') }}</a>
                                             </li>
                                             
                                         @endif
