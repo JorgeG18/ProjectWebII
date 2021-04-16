@@ -1,14 +1,16 @@
 .contact{
     padding: 4%;
     height: 400px;
-    margin-bottom: 247px;
-  
+    margin-bottom: 247px; 
 }
 .col-md-3{
     background: #337AB7;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+}
+.contact .row{
+    box-shadow: rgba(255, 255, blue, alpha);
 }
 .contact-info{
     margin-top:10%;
@@ -29,7 +31,7 @@
 }
 .contact-form label{
     font-weight:600;
-    color: white;
+    color: black;
 }
 .contact-form button{
     background: #337AB7;
@@ -39,4 +41,11 @@
 }
 .contact-form button:focus{
     box-shadow:none;
+}
+
+.titulo{
+    background:linear-gradient(180deg,#343a40,#337AB7);
+    padding: 15px;
+    color: #fff;
+
 }
