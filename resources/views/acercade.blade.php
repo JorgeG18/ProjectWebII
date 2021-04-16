@@ -1,4 +1,4 @@
-@extends('menu')
+@extends('home')
 
 @section('title')
     acercade
@@ -11,7 +11,7 @@
             <div class="col-lg-4" id="j">
                 <img class="img-circle" src="https://g2consultores.com.mx/wp-content/uploads/2015/04/2010112419192700001105280000193577.jpg" alt="Generic placeholder image" width="150" height="150">
                 <h2>Misión</h2>
-                <p>Ser una empresa innovadora y con gran sentido de responsabilidad social que busca el máximo beneficio de nuestros clientes a través de la calidad de nuestros productos y nuestros servicios y ofrecer productos y servicios que estén a la vanguardia de las últimas tendencias que el mercado demanda.</p>
+                <p>Ser una de las muchas empresa innovadora y con gran sentido de responsabilidad social que busca el máximo beneficio de nuestros clientes a través de la calidad de nuestros productos y nuestros servicios y ofrecer productos y servicios que estén a la vanguardia de las últimas tendencias que el mercado demanda.</p>
 
                 
             </div><!-- /.col-lg-4 -->
